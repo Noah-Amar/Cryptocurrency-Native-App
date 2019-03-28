@@ -11,6 +11,7 @@ export default class App extends React.Component {
       <Provider store={Store}>
       <View>
         <Header />
+        <CryptoContainer />
       </View>
       </Provider>
     );
